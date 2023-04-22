@@ -44,6 +44,10 @@ async function runHIDSetup() {
                     {
                         vendorId: 0x54c, // unknown other controller
                         productId: 0x1000,
+                    },
+                    {
+                        vendorId: 0x054c, // unknown other controller
+                        productId: 0x1000,
                     }
                 ],
             });
